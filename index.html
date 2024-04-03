@@ -196,7 +196,7 @@
           getFriendship()
           createUniversalLink()
         } else {
-          liff.login()
+          liff.login( { redirectURi: "https://app.nombamrung.com/shop" } )
         }
       })
       await liff.init({ liffId: "2004475657-yPKGMBeE" })
